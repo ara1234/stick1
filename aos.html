@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="./cssLib/aos.css">
+
+<div id="transcroller-body" class="aos-all">
+	<div class="kv-cont">
+		<p>1</p>
+		<p data-aos="fade-left" data-aos-delay="100" data-aos-duration="2000">2</p>
+		<p data-aos="fade-left" data-aos-delay="300" data-aos-duration="2000">3</p>
+	</div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="./jsLib/aos.js"></script>
+<script type="text/javascript">
+// AOS
+var myAOS = function() {
+	AOS.init({
+	   easing: 'ease-out-back',
+	   duration: 1500
+	});
+}
+myAOS();
+</script>
